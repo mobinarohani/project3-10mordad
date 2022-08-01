@@ -1,0 +1,30 @@
+.header{
+    background-color: #0000;
+    grid-column: 1/-1;
+    background: linear-gradient(to left,#4d4c4c4f,#000000) , url("../img/header-1.jpg") 0 70%/cover;
+    display: grid;
+    grid-template-rows: repeat(3,min-content);
+    grid-gap:15px;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+    .header {
+        background-position-x: 10%;
+    }
+}
+
+.header-1{
+    font-size: 30px;
+    color: rgb(240, 217, 116);
+}
+
+.header-2{
+    color: rgb(209, 136, 0);
+    font-size: 50px;
+}
+.header-text{
+    color: orange;
+}
